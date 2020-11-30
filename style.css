@@ -72,6 +72,10 @@ img.bg-images:nth-of-type(3) {
   width: 70%;
 }
 
+.user-slider {
+  position: relative;
+}
+
 .user-image {
   position: relative;
   width: 70%;
@@ -81,7 +85,7 @@ img.bg-images:nth-of-type(3) {
 
 .user-image .profile-picture {
   width: 100%;
-  display: block;
+  /* display: block; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 58px;
@@ -127,7 +131,7 @@ span.user-title {
   height: 40px;
   width: 29%;
   position: absolute;
-  bottom: -5%;
+  bottom: -15px;
   left: 34%;
 }
 
@@ -143,4 +147,15 @@ span.user-title {
 /* ------hide section---------- */
 .hide {
   display: none;
+}
+
+/* -----ading animation ------*/
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
