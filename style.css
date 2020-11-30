@@ -43,6 +43,8 @@ body {
 
 .app-container {
   width: 100%;
+  min-width: 320px;
+  max-width: 600px;
   height: 100vh;
   position: relative;
 }
@@ -60,13 +62,14 @@ img.bg-images:nth-of-type(1) {
 }
 
 img.bg-images:nth-of-type(2) {
-  top: 54%;
+  top: 56%;
   left: 43%;
-  width: 60px;
+  width: 16%;
 }
 
 img.bg-images:nth-of-type(3) {
   bottom: 0;
+  width: 70%;
 }
 
 .user-image img {
