@@ -23,27 +23,31 @@
   </head>
   <body>
     <div class="app-container">
+      
+      <!-- background -->
       <img class="bg-images" src="./images/pattern-bg.svg" alt="" />
       <img class="bg-images" src="./images/pattern-quotes.svg" alt="" />
       <img class="bg-images" src="./images/pattern-curve.svg" alt="" />
+
       <!------- user Tanya -------->
-      <div id="user-tanya" class="user-slider hide">
+      <div id="user-tanya" class="user-slider fade">
         <div class="user-image">
           <img
             class="profile-picture"
             src="./images/image-tanya.jpg"
             alt="tanya"
           />
-          <!---- Next and previous buttons ---->
-          <div class="control-buttons">
-            <a class="prev" onclick="plusSlides(-1)"
-              ><img src="./images/icon-prev.svg" alt=""
-            /></a>
-            <a class="next" onclick="plusSlides(1)"
-              ><img src="./images/icon-next.svg" alt=""
-            /></a>
-          </div>
+           <!---- Next and previous buttons ---->
+        <div class="control-buttons">
+          <a class="prev" onclick="plusSlides(-1)"
+          ><img src="./images/icon-prev.svg" alt=""
+          /></a>
+          <a class="next" onclick="plusSlides(1)"
+          ><img src="./images/icon-next.svg" alt=""
+          /></a>
         </div>
+        </div>
+         
         <div class="user-testimonial">
           <p>
             “ I’ve been interested in coding for a while but never taken the
@@ -56,7 +60,7 @@
       </div>
 
       <!---- user John ---->
-      <div id="user-john" class="user-slider">
+      <div id="user-john" class="user-slider fade">
         <div class="user-image">
           <img
             class="profile-picture"
@@ -64,14 +68,14 @@
             alt="john"
           />
           <!---- Next and previous buttons ---->
-          <div class="control-buttons">
-            <a class="prev" onclick="plusSlides(-1)"
-              ><img src="./images/icon-prev.svg" alt=""
-            /></a>
-            <a class="next" onclick="plusSlides(1)"
-              ><img src="./images/icon-next.svg" alt=""
-            /></a>
-          </div>
+        <div class="control-buttons">
+          <a class="prev" onclick="plusSlides(-1)"
+          ><img src="./images/icon-prev.svg" alt=""
+          /></a>
+          <a class="next" onclick="plusSlides(1)"
+          ><img src="./images/icon-next.svg" alt=""
+          /></a>
+        </div>
         </div>
         <div class="user-testimonial">
           <p>
@@ -84,6 +88,8 @@
           <span class="user-title">Junior Front-end Developer</span>
         </div>
       </div>
+      
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
